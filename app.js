@@ -15,8 +15,8 @@ const main = async () => {
     await recuperarUsuario(1)
     await actualizarUsuario(2, 'Marcela')
     await eliminarUsuario(1)
-    await agregarTareaUsuario(3, 'Hacer otra tarea')
-    await listarTareaUsuario(3)
+    await agregarTareaUsuario(5, 'Hacer una tarea')
+    await listarTareaUsuario(5)
     await eliminarTarea(3, 'Hacer otra tarea')
     await listarTareaUsuario(3)
   } catch (error) {
