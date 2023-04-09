@@ -4,7 +4,7 @@ import sequelize from './db.js'
 const Tarea = sequelize.define('Tarea',
 
   {
-    descripcion: { type: DataTypes.STRING },
+    descripcion: { type: DataTypes.STRING }
   },
 
   {
